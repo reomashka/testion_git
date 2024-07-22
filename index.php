@@ -8,6 +8,8 @@
 <body>
 	<main>
 		<div class="container">
+
+        <!-- #Если Куков в userName нет, то программа выводит newName.php, есть - noName.php -->
             <?php
             if (!isset($_COOKIE["userName"])) {
                 include_once "newName.php";
