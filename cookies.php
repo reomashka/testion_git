@@ -12,6 +12,7 @@ if (isset($_GET["name"])){
     setcookie("userName", $_GET["name"]);
     header("Location: http://phpmysql/");
     exit();
-
+s
 }
 
+у
