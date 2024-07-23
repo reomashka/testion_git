@@ -14,5 +14,4 @@ if (isset($_GET["name"])){
     exit();
 s
 }
-
-у
+werrr
